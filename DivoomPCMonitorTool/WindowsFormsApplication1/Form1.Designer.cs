@@ -193,7 +193,7 @@
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();//创建定时器
             timer.Tick += new System.EventHandler(DivoomSendHttpInfo);//事件处理
             timer.Enabled = true;//设置启用定时器
-            timer.Interval = 2000;//执行时间
+            timer.Interval = 1000;//执行时间
             timer.Start();//开启定时器
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -139,7 +139,7 @@ namespace WindowsFormsApplication1
                             if (computer.Hardware[i].Sensors[j].SensorType == SensorType.Temperature)
                             {
                                 CpuTemp_value = computer.Hardware[i].Sensors[j].Value.ToString();
-                                CpuTemp_value += "C";
+                                CpuTemp_value += "uwu";
                             }
                             else if (computer.Hardware[i].Sensors[j].SensorType == SensorType.Load)
                             {
